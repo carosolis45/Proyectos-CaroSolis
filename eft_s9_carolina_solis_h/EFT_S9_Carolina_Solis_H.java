@@ -26,9 +26,9 @@ public class EFT_S9_Carolina_Solis_H {
         
         // Listas para almacenar datos de las entradas vendidas
         ArrayList<Integer> numerosAsientos = new ArrayList<>();
-        ArrayList<String> tiposEntrada = new ArrayList<>(); // "VIP", "PLATEA", "BALCON"
+        ArrayList<String> tiposEntrada = new ArrayList<>(); // "VIP", "PLATEA", "PALCO", "GALERIA"
         ArrayList<Double> precios = new ArrayList<>();
-        ArrayList<String> categoriasCliente = new ArrayList<>(); //  Estudiante o Adulto Mayor
+        ArrayList<String> categoriasCliente = new ArrayList<>(); //  Estudiante, Niños,mujeres, Adulto Mayor
         ArrayList<Double> preciosOriginales = new ArrayList<>();
         ArrayList<Double> preciosFinales = new ArrayList<>();
         
@@ -63,8 +63,8 @@ public class EFT_S9_Carolina_Solis_H {
             System.out.println("1. Normal (sin descuento)");
             System.out.println("2. Estudiante (15% descuento)");
             System.out.println("3. Adulto Mayor (25% descuento)");
-            System.out.println("4. niños (10% descuento)");
-            System.out.println("5. mujeres (20% descuento)");
+            System.out.println("4. Niños (10% descuento)");
+            System.out.println("5. Mujeres (20% descuento)");
             System.out.println("Seleccione categoría (1-5):");
             int categoria = scanner.nextInt();
             scanner.nextLine(); // Limpiar buffer
